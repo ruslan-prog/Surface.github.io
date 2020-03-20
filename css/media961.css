@@ -1,0 +1,471 @@
+@media (min-width: 961px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background: url("../img/football_1920.jpg") no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        color: #ffffff;
+        background-position: 50% 50%;
+        background-color: #0a0e34;
+    }
+
+    .logo {
+        fill: white;
+        color: white;
+        width: 200px;
+        height: 56px;
+        align-self: center;
+        position: relative;
+        content: "";
+        z-index: 1;
+    }
+
+    h1 {
+        font-size: 90px;
+    }
+
+    h2 {
+        font-size: 90px;
+        max-width: 80%;
+    }
+
+    .buttons {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 58%;
+    }
+
+    .butapp {
+        width: 45%;
+    }
+
+    .butgp {
+        width: 45%;
+    }
+
+    .ico {
+        width: 40px;
+        height: 50px;
+    }
+
+    .apple, .google {
+        font-size: 14px;
+        padding: 1em;
+    }
+
+    .athlets {
+        flex-direction: column;
+        align-items: center;  
+    }
+
+    .athlets:before {
+        position: absolute;
+        z-index: 1;
+        content: "";
+        background: url("../img/footballer_566.png") no-repeat;
+        width: 50%;
+        background-position: 100% 0%;
+        height: 1000px;
+        left: 0;
+    }
+
+    .ats {
+        margin-top: 80px;
+        padding-left: 5rem;
+        width: 45%;
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        font-size: 76px;
+        text-transform: uppercase;
+    }
+
+    .con {
+        min-height: 260px;
+        align-items: center;
+    }
+
+    .cone {
+        width: 45%;
+        margin: 20px;
+        margin-left: auto;
+    }
+    
+    .cone>h4>span {
+        margin: 0;
+    }
+    
+    .cone>p {
+        margin-top: 32px;
+    }
+    
+    h4 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 20px;
+        padding: 0;
+        font-weight: normal;
+    }
+
+    .col {
+        min-height: 260px;
+        align-items: center;
+    }
+
+    .cole {
+        width: 45%;
+        margin: 20px;
+        margin-left: auto;
+    }
+
+    .cole>h4 {
+        font-size: 36px;
+    }
+    
+    .cole>h4>span {
+        margin: 0;
+    }
+    
+    .cole>p {
+        font-size: 20px;
+        padding: 0;
+        font-weight: normal;
+        align-self: center;
+    }
+
+    .gw {
+        min-height: 260px;
+        align-items: center;
+    }
+
+    .gwe {
+        width: 45%;
+        margin: 20px;
+        margin-left: auto;
+    }
+
+    .gwe>h4 {
+        font-size: 36px;
+    }
+
+    .gwe>h4>span {
+        margin: 0;
+    }
+    
+    .gwe>p {
+        font-size: 20px;
+        padding: 0;
+        font-weight: normal;
+        align-self: center;
+    }
+
+    .players {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .players:after {
+        position: absolute;
+        z-index: 1;
+        content: "";
+        background: url("../img/basketballer_991.png") no-repeat right;
+        width: 50%;
+        background-position: 0% 100%;
+        height: 780px;
+        right: 0;
+    }
+
+    .pls {
+        align-self: flex-start;
+        width: 45%;
+        margin-top: 80px;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+        padding-left: 10rem;
+        font-size: 76px;
+    }
+
+    .cn {
+        min-height: 260px;
+        align-items: center;
+    }
+
+    .cne {
+        width: 45%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-left: 10rem;
+    }
+
+    .cne>h4 {
+        font-size: 36px;
+    }
+    
+    .cne>h4>span {
+        margin: 0;
+    }
+    
+    .cne>p {
+        font-size: 20px;
+        padding: 0;
+        font-weight: normal;
+        align-self: center;
+    }
+
+    .cln {
+        min-height: 260px;
+        align-items: center;
+    }
+
+    .clne {
+        width: 45%;
+        margin: 20px;
+        padding-left: 10rem;
+        padding-right: 3rem;
+    }
+
+    .clne>h4 {
+        font-size: 36px;
+    }
+    
+    .clne>h4>span {
+        margin: 0;
+    }
+    
+    .clne>p {
+        font-size: 20px;
+        padding: 0;
+        font-weight: normal;
+        align-self: center;
+    }
+
+    .gtw {
+        min-height: 260px;
+        align-items: center;
+    }
+
+    .gtwe {
+        width: 45%;
+        margin: 20px;
+        padding-left: 10rem;
+    }
+
+    .gtwe>h4 {
+        font-size: 36px;
+    }
+    
+    .gtwe>h4>span {
+        margin: 0;
+    }
+
+    .aci {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .ba {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .ba>.picture {
+        background: url("../img/be-active_960.jpg") no-repeat center;
+        width: 50%;
+        min-height: 730px;
+        overflow: hidden;
+    }
+
+    .num {
+        font-size: 24px;
+        width: 5.5em;
+        height: 5.5em;
+        margin-left: calc(-5.5*24px/2);
+        margin-top: 25rem;
+    }
+
+    .baw {
+        justify-content: center;
+        width: 50%;
+        margin-left: calc(-6*24px/2);
+    }
+
+    .baw>h3 {
+        font-size: 76px;
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+    .baw>p {
+        font-size: 24px;
+        padding-right: 60px;
+        padding-left: 60px;
+        font-weight: normal;
+        align-self: center;
+    }
+
+    .fc {
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+
+    .fc>.picture {
+        background: url("../img/find-contact_960.jpg") no-repeat center;
+        width: 50%;
+        min-height: 730px;
+        margin-left: calc(-6*24px/2);
+        overflow: hidden;
+    }
+
+    .numfc {
+        font-size: 24px;
+        width: 5.5em;
+        height: 5.5em;
+        margin-left: calc(-5.5*24px/2);
+        margin-top: 25rem;
+    }
+
+    .numfc>span {
+        margin-top: calc(5.5em/2 - 1em);
+    }
+
+    .fcw {
+        justify-content: center;
+        width: 50%;
+    }
+
+    .fcw>h3 {
+        font-size: 76px;
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+    .fcw>p {
+        font-size: 24px;
+        padding-right: 60px;
+        padding-left: 60px;
+        font-weight: normal;
+        align-self: center;
+    }
+
+    .wi {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .wi>.picture {
+        background: url("../img/work-it_960.jpg") no-repeat center;
+        width: 50%;
+        min-height: 730px;
+    }
+
+    .numwi {
+        font-size: 24px;
+        width: 5.5em;
+        height: 5.5em;
+        margin-left: calc(-5.5*24px/2);
+        margin-top: 25rem;
+    }
+
+    .numwi>span {
+        margin-top: calc(5.5em/2 - 1em);
+    }
+
+    .wiw {
+        margin-left: calc(-6*24px/2);
+        justify-content: center;
+        width: 50%;
+        min-height: 730px;
+    }
+
+    .wiw>h3 {
+        padding-right: 60px;
+        padding-left: 60px;
+        font-size: 76px;
+    }
+
+    .wiw>p {
+        font-size: 24px;
+        padding-right: 60px;
+        padding-left: 60px;
+        font-weight: normal;
+        align-self: center;
+    }
+
+    .foot {
+        flex-direction: column;
+        align-items: center;
+        background: url("../img/game_1920.jpg") no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        color: #ffffff;
+        background-position: 50% 50%;
+        background-color: #0a0e34;
+    }
+
+    .fotico {
+        flex-direction: row;
+        width: 80%;
+        justify-content: center;
+        align-content: center;
+    }
+
+    
+    .fotico>article>h2 {
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-left: 0;
+        padding: 0;
+        margin-right: 200px;
+    }
+
+    .fotico>article>p {
+        font-size: 30px;
+        padding-right: 20px;
+        font-weight: normal;
+        align-self: center;
+        margin-left: 0;
+        margin-right: 350px;
+    }
+
+    .log {
+        width: 130px;
+        height: 130px;
+        margin-top: auto;
+    }
+
+    .log>svg {
+        width: 100px;
+        height: 100px;
+    }
+
+    .buttonse {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 58%;
+    }
+
+    .butappt {
+        width: 45%;
+    }
+
+    .butgpt {
+        width: 45%;
+    }
+
+    .applet {
+        font-size: 14px;
+        padding: 1em;
+    }
+
+    .googlet {
+        font-size: 14px;
+        padding: 1em;
+    }
+}

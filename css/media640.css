@@ -1,0 +1,407 @@
+@media (max-width: 640px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-image: url("../img/football_767.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .logo  {
+        color: white;
+        fill: white;
+        width: 133px;
+        height: 36px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        max-width: 240px;
+        font-size: 28px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 86%;
+    }
+
+    .butapp {
+        width: 100%;
+    }
+
+    .butgp {
+        width: 100%;
+    }
+
+    .ico {
+        width: 24px;
+        height: 24px;
+    }
+
+    .apple, .google {
+        font-size: 8px;
+    }
+
+    .athlets {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .athlets:before {
+        position: absolute;
+        z-index: 1;
+        content: "";
+        background: url("../img/footballer_192.png") no-repeat center;
+        width: 80%;
+        height: 450px;
+    }
+
+    .ats {
+        margin-top: 10px;
+        margin-bottom: 230px;
+        align-self: flex-start;
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+
+    .cone {
+        justify-content: center;
+        padding: 0 2rem;
+        min-height: 260px;
+        margin-top: auto;
+        margin-bottom: auto;
+        flex-direction: column;
+    }
+
+    h4 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    
+
+    .cole {
+        justify-content: center;
+        padding: 0 2rem;
+        min-height: 260px;
+        margin-top: auto;
+        margin-bottom: auto;
+        flex-direction: column;
+    }
+
+    .cole>h4 {
+        font-size: 28px;
+    }
+
+    .cole>p {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .gwe {
+        justify-content: center;
+        padding: 0 2rem;
+        min-height: 260px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .gpe>h4 {
+        font-size: 28px;
+    }
+
+    .gwe>p {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .players {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .players:after {
+        position: absolute;
+        z-index: 1;
+        content: "";
+        background: url("../img/basketballer_302.png") no-repeat center;
+        width: 90%;
+        height: 420px;
+    }
+
+    .pls {
+        font-size: 50px;
+        margin-top: 1rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-bottom: 23rem;
+        align-self: flex-start;
+    }
+
+    .cne {
+        justify-content: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        min-height: 260px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+    .cne>h4 {
+        font-size: 28px;
+    }
+
+    .cne>p {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .clne {
+        justify-content: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        min-height: 260px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .clne>h4 {
+        font-size: 28px;
+    }
+
+    .clne>p {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .gtwe {
+        justify-content: center;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        min-height: 260px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .gtwe>h4 {
+        font-size: 28px;
+    }
+    
+    .aci {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ba {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .ba>.picture {
+        background: url("../img/be-active_640.jpg") no-repeat center;
+        min-height: 50rem;
+        overflow: hidden;
+    }
+
+    .num {
+        margin-left: 2rem;
+        margin-top: -4rem;
+        font-size: 14px;
+        width: 5em;
+        height: 5em;
+    }
+
+    .num>span {
+        margin-top: calc(5em/2 - 1em);
+    }
+
+    .baw {
+        min-height: 180px;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .baw>h3 {
+        font-size: 28px;
+    }
+
+    .baw>p {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .fc {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .fc>.picture {
+        background: url("../img/find-contact_640.jpg") no-repeat center;
+        overflow: hidden;
+        min-height: 50rem;
+    }
+
+    .numfc {
+        margin-left: 2rem;
+        margin-top: -4em;
+        font-size: 14px;
+        width: 5em;
+        height: 5em;
+    }
+
+    .numfc>span {
+        margin-top: calc(5.5em/2 - 1em);
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+    }
+
+    .fcw {
+        min-height: 180px;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .fcw>h3 {
+        font-size: 28px;
+    }
+
+    .fcw>p {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .wi {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .wi>.picture {
+        background: url("../img/work-it_640.jpg") no-repeat center;
+        width: 100%;
+        min-height: 730px;
+    }
+
+    .numwi {
+        margin-left: 2rem;
+        margin-top: -4em;
+        font-size: 14px;
+        width: 5em;
+        height: 5em;
+    }
+
+    .numwi>span {
+        margin-top: calc(5em/2 - 1em);
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+    }
+
+    .wiw {
+        min-height: 180px;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+    .wiw>h3 {
+        font-size: 28px;
+    }
+
+    .wiw>p {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .foot {
+        flex-direction: column;
+        align-items: center;
+        background: url("../img/game_767.jpg");
+        min-height: 100vh;
+        color: #ffffff;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-color: #0a0e34;
+        background-size: cover;
+    }
+
+    .fotico {
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+        margin-top: 80px;
+    }
+
+    .fotico>article {
+        padding-right: 2rem;
+        padding-left: 2rem;
+        min-height: 260px;
+    }
+
+    .fotico>article>h2 {
+        font-size: 28px;
+    }
+
+    .fotico>article>p {
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    .log {
+        width: 72px;
+        height: 72px;
+    }
+
+    .log>svg {
+        width: 56px;
+        height: 56px;
+    }
+
+    .buttonse {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 86%;
+    }
+
+    .butappt {
+        width: 100%;
+    }
+    
+    .butgpt {
+        width: 100%;
+    }
+
+    .butappt>svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .butgpt>svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .applet {
+        font-size: 8px;
+    }
+
+    .googlet {
+        font-size: 8px;
+    }
+}
